@@ -1,0 +1,149 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.bgimg{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative; 
+}
+.opac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 0;
+}
+.bgimg img{
+    height: 100vh;
+    width: 100vw;
+}
+.btn{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.btn button{
+    height: 44px;
+    width: 151px;
+    background-color: rgb(223, 15, 15);
+    border-radius: 8px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+.txt{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.qbox {
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.questbox{
+    height: 495px;
+    width: 858px;
+    background-color: rgb(212, 163, 29);
+    display: flex;
+    border-radius: 0 0 40px 40px;
+}
+.prevbtn button{
+    position: absolute;
+    top: 74%;
+    left: 19%;
+    background-color: orangered;
+    height: 34px;
+    width: 95px;
+    font-size: large;
+    border-radius: 9px;
+}
+.nextbtn button{
+    position: absolute;
+    top: 73%;
+    left: 73%;
+    background-color: greenyellow;
+    height: 34px;
+    width: 95px;
+    font-size: large;
+    border-radius: 9px;
+}
+
+
+
+
+.question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.options button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #ccc;
+}
+
+
+.prevbtn button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cd4e1c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.nextbtn button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #13b70d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prevbtn button:hover,
+.nextbtn button:hover {
+    background-color: #0056b3;
+}
+
